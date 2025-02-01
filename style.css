@@ -2,3 +2,33 @@ html {
   margin: 0;
   height: 100%; 
 }
+
+body {
+  background-image: url("minecraft-assets/minecraft_background_with_title.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#images {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: 50px; */
+  margin-top: 250px;
+  gap: 10px;
+}
+
+#bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 10px;
+}
